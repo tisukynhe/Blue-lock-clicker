@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
+<title>Blue Lock Clicker</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<header class="top-bar">
+
+<div class="logo-box">
+
+<h1>
+BLUE LOCK CLICKER ⚽
+</h1>
+
+<p>
+Ego Points:
+<span id="points">
+0
+</span>
+</p>
+
+</div>
+
+<div class="stats-box">
+
+<div>
+
+<h3>
+REBIRTHS
+</h3>
+
+<span id="rebirth-count">
+0
+</span>
+
+</div>
+
+<div>
+
+<h3>
+FLOW
+</h3>
+
+<span id="flow-text">
+0/100
+</span>
+
+</div>
+
+</div>
+
+</header>
+
+<div class="game-container">
+
+<!-- ESQUERDA -->
+
+<aside class="left-panel">
+
+<div class="active-character">
+
+<img
+id="active-character-image"
+src="assets/characters/isagi.png">
+
+<div>
+
+<h2
+id="active-character-name">
+
+Isagi Base
+
+</h2>
+
+<p
+id="active-character-rarity">
+
+COMMON
+
+</p>
+
+<span
+id="active-character-boost">
+
++0 Boost
+
+</span>
+
+<div
+id="active-character-skills">
+
+</div>
+
+</div>
+
+</div>
+
+<div class="flow-container">
+
+<div
+id="flow-bar">
+
+</div>
+
+</div>
+
+<button id="kick-button">
+
+⚽
+
+</button>
+
+</aside>
+
+
+<!-- CENTRO -->
+
+<main class="center-panel">
+
+<h2>
+UPGRADES
+</h2>
+
+<button
+class="upgrade"
+id="kick-upgrade">
+
+<div>
+
+<h3>
+Treino de Finalização
+</h3>
+
+<p>
++1 clique
+</p>
+
+</div>
+
+<span>
+25
+</span>
+
+</button>
+
+<button
+class="upgrade"
+id="auto-upgrade">
+
+<div>
+
+<h3>
+Visão de Jogo
+</h3>
+
+<p>
++1/s
+</p>
+
+</div>
+
+<span>
+50
+</span>
+
+</button>
+
+<button
+id="rebirth-button"
+class="rebirth-button">
+
+⚡ REBIRTH (1000)
+
+</button>
+
+
+<h2>
+
+PARTIDAS
+
+</h2>
+
+<div id="boss-container">
+
+<div
+class="boss-card">
+
+<h3>
+
+Nenhuma partida ativa
+
+</h3>
+
+</div>
+
+</div>
+
+</main>
+
+
+<!-- DIREITA -->
+
+<aside class="right-panel">
+
+<h2>
+
+PERSONAGENS
+
+</h2>
+
+<div id="character-list">
+
+</div>
+
+<h2>
+
+CONQUISTAS
+
+</h2>
+
+<div id="achievement-list">
+
+</div>
+
+<h2>
+
+MISSÕES
+
+</h2>
+
+<div id="mission-list">
+
+</div>
+
+</aside>
+
+</div>
+
+<script src="script.js"></script>
+
+<script src="saves.js"></script>
+
+<script src="flow.js"></script>
+
+<script src="achievements.js"></script>
+
+<script src="bosses.js"></script>
+
+<script src="missions.js"></script>
+
+<script src="gacha.js"></script>
+
+</body>
+
+</html>
